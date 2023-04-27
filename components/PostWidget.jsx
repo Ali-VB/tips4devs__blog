@@ -4,7 +4,7 @@ import moment from "moment";
 import { getRecentPosts } from "../services";
 import { getSimilarPosts } from "../services";
 
-const PostWidget = ( ) => {
+const PostWidget = ( {categories,slug}) => {
   const [relatedPosts, setRelatedPosts] = useState([]);
 
   useEffect(() => {

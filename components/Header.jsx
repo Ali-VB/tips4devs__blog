@@ -21,7 +21,7 @@ const Header = () => {
           <Link href="/">
             <img
               className="w-44 cursor-pointer"
-              src="/images/tips4Devs_logo__sm.png"
+              src="/images/logo-grey.svg"
               alt="logo"
             />
           </Link>

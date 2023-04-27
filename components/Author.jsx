@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+
 const Author = ({ author }) => {
   console.log("auther"+author)
   return (

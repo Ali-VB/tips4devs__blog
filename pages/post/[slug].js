@@ -23,13 +23,13 @@ const PostDetails = ({ post }) => {
   )
 }
 
-export default PostDetails
+export default PostDetails;
 
 export async function getStaticProps({params}) {
   const data = await getPostDetails(params.slug)
   return {
-    props: { post: data }
-  }
+    props: { post: data, },
+  };
 }
 
 export async function getStaticPaths() {

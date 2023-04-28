@@ -1,6 +1,7 @@
 import React from "react";
 import moment from "moment";
 const PostDetail = ({ post }) => {
+  // console.log(" postAuthorName" + " = " + post.author);
   const getContentFragment = (index, text, obj, type) => {
     let modifiedText = text;
 
@@ -89,9 +90,9 @@ const PostDetail = ({ post }) => {
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="#000000"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
                 <circle cx="12" cy="12" r="10"></circle>
                 <polyline points="12 6 12 12 16 14"></polyline>

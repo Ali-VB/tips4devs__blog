@@ -71,8 +71,8 @@ const PostCard = ({ post }) => {
           <img
             src={post.featuredImage.url}
             alt={post.title}
-            width="200px"
-            height="134px"
+            width="230px"
+            height="145px"
             className=" object-cover cursor-pointer"
           />
         </Link>

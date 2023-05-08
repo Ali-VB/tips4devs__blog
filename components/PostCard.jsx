@@ -7,7 +7,7 @@ const PostCard = ({ post }) => {
   return (
     <div className="  rounded-lg p-0 lg:p-4 pb-10 mb-1 lg:flex lg:flex-row ">
       <div>
-        <div className="block  mb-2 w-80">
+        <div className="block  mb-2 w-full">
           <div className="flex items-center mb-4 lg:mb-0 w-full lg:w-auto mr-8">
             <img
               src={post.author.photo.url}

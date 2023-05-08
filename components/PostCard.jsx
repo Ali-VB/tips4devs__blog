@@ -66,7 +66,7 @@ const PostCard = ({ post }) => {
         </div>
       </div>
 
-      <div className="  flex flex-col  lg:justify-center  ">
+      <div className="  flex flex-col  lg:justify-center p-8 ">
         <Link href={`/post/${post.slug}`}>
           <img
             src={post.featuredImage.url}
